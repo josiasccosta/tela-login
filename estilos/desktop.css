@@ -1,2 +1,16 @@
 @charset "UTF-8";
 
+section#login{
+    width: 900px;
+    height: 300px; 
+    display: flex;
+}
+
+div#img{
+    width: 300px;
+    height: 100%;
+}
+
+div#formulario{
+}
+
