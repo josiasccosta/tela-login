@@ -6,22 +6,27 @@ body{
 
 section#login{
     width: 990px;
-    height: 300px; 
+    height: 400px; 
 
 }
 
 div#img{
-    width: 40%;
+    width: 45%;
     height: 100%;
     float: right;
 }
 
 div#formulario{
-    width: 60%;
+    width: 55%;
     height: 100%;
     float: left;
 }
 
 div#formulario > p{
     font-size: 1em;
+    margin-bottom: 40px;
+}
+
+div.container{
+    margin: 10px 0px;
 }
