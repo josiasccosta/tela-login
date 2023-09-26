@@ -25,91 +25,25 @@ main{
     height: 100vh;
 }
 
-section{
-    background-color: white;
+section#login{
     width: 270px;
     height: 520px;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.459);
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 }
 
-section h2{
-    padding: 3px;
+div#img{
+    display: block;
+    background: url(../pexels-pixabay-355465.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+
 }
 
-section > img{
-    border-radius: 15px 15px 0px 0px;
-    width: 270px;
-    height: 210px;
-}
-
-section > p{
-    text-align: justify;
+div#formulario{
+    display: block;
     padding: 10px;
 }
 
-.container{
-    background-color: #800080;
-    border-radius: 10px;
-    width: 90%;
-    display: flex;
-    margin-bottom: 8px;
-    margin-left: 12px;
-}
-
-.controles{
-    padding: 5px;
-    width: 90%;
-    border-radius: 7px;
-    border: 2px solid purple;
-}
-
-.controles:focus{
-    background-color: #43dfab;
-}
-
-#login{
-    background-color: rgb(10, 224, 152);
-    border-radius: 5px;
-    color: white;
-    padding: 8px;
-    width: 90%;
-    margin-bottom: 8px;
-}
-
-#login:hover{
-    background-color: rgb(8, 157, 107);
-    transition: 0.2s;
-}
-
-#esqueci-senha{
-    border-radius: 5px;
-    width: 200px;
-    padding: 8px;
-    width: 90%;
-}
-
-#esqueci-senha:hover{
-    background-color: rgb(8, 157, 107);
-    color: white;
-    transition: 0.2s;
-}
-
-#person{
-    margin-right: 12px;
-    padding: 5px;
-    border-radius: 7px 0px 0px 7px;
-    background-color: purple;
-    width: 20px;
-    color: white;
-}
-
-#key{
-    margin-right: 12px;
-    padding: 5px;
-    border-radius: 7px 0px 0px 7px;
-    background-color: purple;
-    width: 20px;
-    color: white;
-}
