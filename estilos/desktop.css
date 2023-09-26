@@ -1,19 +1,23 @@
 @charset "UTF-8";
 
+body{
+    background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
+}
+
 section#login{
-    width: 900px;
+    width: 990px;
     height: 300px; 
 
 }
 
 div#img{
-    width: 30%;
+    width: 40%;
     height: 100%;
     float: right;
 }
 
 div#formulario{
-    width: 70%;
+    width: 60%;
     height: 100%;
     float: left;
 }
