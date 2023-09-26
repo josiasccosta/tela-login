@@ -27,6 +27,7 @@ main{
     text-align: center;
     margin: 100px auto;
     border-radius: 15px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.459);
 }
 
 main h2{
@@ -92,7 +93,7 @@ main > p{
 }
 
 #person{
-    margin-right: 10px;
+    margin-right: 12px;
     padding: 5px;
     border-radius: 7px 0px 0px 7px;
     background-color: purple;
@@ -101,7 +102,7 @@ main > p{
 }
 
 #key{
-    margin-right: 10px;
+    margin-right: 12px;
     padding: 5px;
     border-radius: 7px 0px 0px 7px;
     background-color: purple;
