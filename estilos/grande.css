@@ -9,3 +9,19 @@ section#login{
     height: 300px; 
 
 }
+
+div#img{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+div#formulario{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+div#formulario > p{
+    font-size: 1.2em;
+}

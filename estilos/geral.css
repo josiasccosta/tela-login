@@ -41,7 +41,6 @@ div#img{
     background: url(../pexels-pixabay-355465.jpg) no-repeat;
     background-size: cover;
     height: 200px;
-
 }
 
 div#formulario{
@@ -49,3 +48,11 @@ div#formulario{
     padding: 10px;
 }
 
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p{
+    font-size: 0.8em;
+}
