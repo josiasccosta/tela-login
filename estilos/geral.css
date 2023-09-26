@@ -12,11 +12,9 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-html{
+html, body{
     height: 100vh;
-}
-
-body{
+    width: 100vw;
     background-color: darkcyan;
 }
 
