@@ -19,26 +19,32 @@ html, body{
 }
 
 main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
     background-color: white;
-    width: 300px;
+    width: 270px;
     height: 520px;
     text-align: center;
-    margin: 100px auto;
     border-radius: 15px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.459);
 }
 
-main h2{
+section h2{
     padding: 3px;
 }
 
-main > img{
+section > img{
     border-radius: 15px 15px 0px 0px;
-    width: 300px;
+    width: 270px;
     height: 210px;
 }
 
-main > p{
+section > p{
     text-align: justify;
     padding: 10px;
 }
