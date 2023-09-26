@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #43dfab;
+    --cor2: #800080;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+main{
+    background-color: white;
+    width: 240px;
+    height: 520px;
+    text-align: center;
+    margin: 200px auto;
+    border-radius: 15px;
+}
+
+main h2{
+    padding: 3px;
+}
+
+main > img{
+    border-radius: 15px 15px 0px 0px;
+    width: 240px;
+    height: 210px;
+}
+
+main > p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.container{
+    background-color: #800080;
+    border-radius: 10px;
+    width: 210px;
+    display: flex;
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+
+.controles{
+    padding: 5px;
+    border-radius: 7px;
+    border: 2px solid purple;
+}
+
+.controles:focus{
+    background-color: #43dfab;
+}
+
+#login{
+    background-color: rgb(10, 224, 152);
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    width: 90%;
+    margin-bottom: 8px;
+}
+
+#login:hover{
+    background-color: rgb(8, 157, 107);
+    transition: 0.2s;
+}
+
+#esqueci-senha{
+    border-radius: 5px;
+    width: 200px;
+    padding: 8px;
+    width: 90%;
+}
+
+#esqueci-senha:hover{
+    background-color: rgb(8, 157, 107);
+    color: white;
+    transition: 0.2s;
+}
+
+#person{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 7px 0px 0px 7px;
+    background-color: purple;
+    width: 20px;
+    color: white;
+}
+
+#key{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 7px 0px 0px 7px;
+    background-color: purple;
+    width: 20px;
+    color: white;
+}
