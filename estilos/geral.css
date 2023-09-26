@@ -16,8 +16,8 @@ body{
 
 main{
     background-color: white;
-    width: 240px;
-    height: 520px;
+    width: 250px;
+    height: 530px;
     text-align: center;
     margin: 200px auto;
     border-radius: 15px;
@@ -29,7 +29,7 @@ main h2{
 
 main > img{
     border-radius: 15px 15px 0px 0px;
-    width: 240px;
+    width: 250px;
     height: 210px;
 }
 
