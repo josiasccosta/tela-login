@@ -6,7 +6,7 @@ body{
 
 section#login{
     width: 80vw;
-    height: 250px; 
+    height: 290px; 
     display: flex;
 }
 
@@ -21,6 +21,6 @@ div#formulario{
 }
 
 div#formulario > p{
-    font-size: 1.0em;
+    font-size: .8em;
 }
 
