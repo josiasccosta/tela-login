@@ -3,16 +3,18 @@
 
 
 section#login{
-    width: 700px;
+    width: 90vw;
     height: 250px; 
     display: flex;
 }
 
 div#img{
-    width: 300px;
+    width: 30%;
     height: 100%;
 }
 
 div#formulario{
+    width: 70%;
+    height: 100%;
 }
 

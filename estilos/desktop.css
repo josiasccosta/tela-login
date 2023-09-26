@@ -3,14 +3,18 @@
 section#login{
     width: 900px;
     height: 300px; 
-    display: flex;
+
 }
 
 div#img{
-    width: 300px;
+    width: 30%;
     height: 100%;
+    float: right;
 }
 
 div#formulario{
+    width: 70%;
+    height: 100%;
+    float: left;
 }
 
