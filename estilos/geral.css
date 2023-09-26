@@ -109,12 +109,12 @@ form > a.botao > span{
 }
 
 div.container > input{
-    background-color: #60d0cd;
+    background-color: white;
     border-radius: 8px;
     padding: 4px;
     width: calc(100% - 45px);
     height: 100%;
-    border: 0px;
+    border: 2px solid #5f2c82;
     font-size: 1em;
     transform: translate(0px , -10px);
 }
