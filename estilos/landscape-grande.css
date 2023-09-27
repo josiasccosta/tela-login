@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-side{
+    width: 40vw;
+}
+
+#right-side{
+    height: 100%;
+    width: 45%;
+}
+
+#card{
+    height: 90%;
+    width: 90%;
+    max-height: 500px;
+}
+
+#card > h1{
+    font-size: 1.5em;
+}
+
+#btn-login{
+    font-size: 1em;
+}
