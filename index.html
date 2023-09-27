@@ -7,34 +7,28 @@
 
     <title>Tela de Login</title>
     <link rel="stylesheet" href="estilos/geral.css" media="all">
-    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 762px) and (max-width: 1100px)">
-    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 1100px) and (max-width: 1400px)">
-    <link rel="stylesheet" href="estilos/grande.css" media="screen and (min-width: 1400px)">
-    
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 762px) and (max-width: 992px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px) and (max-width: 1300px)">
+    <link rel="stylesheet" href="estilos/grande.css" media="screen and (min-width: 1300px)">
 </head>
 <body>
     <main>
-        <section id="login">
-    
-            <div id="img">
-                <!-- Imagem das fica aqui nas CSS-->
-            </div>
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <section id="left-side">
+            <img src="mobile-ui-ux-animate.svg" alt="celular animado">
+        </section>
+        <section id="right-side">
+            <div id="card">
+                <h1>LOGIN</h1>
                 <form action="cadastro.php" method="post" autocomplete="on">
-                    <div class="container">
-                        <span class="material-symbols-outlined" id="person">person</span>
-                        <input type="email" name="mail" id="imail" required placeholder="E-mail" autocomplete="email">
-                        <label for="imail">Login</label>
+                    <div class="input">
+                        <label for="iuser">Usúario</label>
+                        <input type="text" name="user" id="iuser" required maxlength="20" autocomplete="nickname" placeholder="Usúario">
                     </div>
-                    <div class="container">
-                        <span class="material-symbols-outlined" id="key">vpn_key</span>
-                        <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8">
+                    <div class="input">
                         <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" required min="8" placeholder="Senha" autocomplete="current-password">
                     </div>
-                    <input type="submit" value="Entrar">
-                    <a href="#" class="botao">Esqueci a senha <span class="material-symbols-outlined" id="mail">mail</span></a>
+                    <button type="submit" id="btn-login">Login</button>
                 </form>
             </div>
         </section>

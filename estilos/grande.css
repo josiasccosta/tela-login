@@ -1,32 +1,31 @@
 @charset "UTF-8";
 
-body{
-    background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
+main{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-section#login{
-    width: 990px;
-    height: 400px; 
-
+#right-side{
+    width: 50vw;
 }
 
-div#img{
-    width: 45%;
-    height: 100%;
-    float: right;
+#left-side{
+    width: 50vw;
 }
 
-div#formulario{
-    width: 55%;
-    height: 100%;
-    float: left;
+#left-side > img{
+    width: 45vw;
 }
 
-div#formulario > p{
-    font-size: 1em;
-    margin-bottom: 25px;
+#card{
+    width: 60%;
 }
 
-div.container{
-    margin: 10px 0px;
+#card > h1{
+    font-size: 2.2em;
+}
+
+#btn-login{
+    font-size: 1.5em;
 }
