@@ -11,7 +11,10 @@ main{
 }
 
 #left-side{
+    display: flex;
+    flex-direction: column;
     width: 50vw;
+    height: 100%;
 }
 
 #left-side > img{
@@ -28,4 +31,11 @@ main{
 
 #btn-login{
     font-size: 1.5em;
+}
+
+#left-side > h1{
+    display: block;
+    color: #00ff88;
+    font-size: 3vw;
+    margin-bottom: 10px;
 }
