@@ -3,19 +3,27 @@
 main{
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
 }
 
 #left-side{
     width: 40vw;
 }
 
+
+#left-side > img{
+    width: 40vw;
+}
+
 #right-side{
     height: 100%;
-    width: 45%;
+    width: 50vw;
 }
 
 #card{
-    height: 90%;
+    margin-right: 10px;
+    height: 95%;
     width: 90%;
     max-height: 500px;
 }

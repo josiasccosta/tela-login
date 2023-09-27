@@ -58,7 +58,7 @@ main{
 }
 
 #card > h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 6vw;
     color: #00ff88;
 }
@@ -93,7 +93,7 @@ input::placeholder{
 }
 
 #btn-login{
-    margin: 20px auto 0 auto;
+    margin: 10px auto;
     display: block;
     width: 95%;
     padding: 10px 0;
@@ -117,4 +117,18 @@ input::placeholder{
 
 #left-side > h1{
     display: none;
+}
+
+p{
+    color: white;
+}
+
+p > a{
+    text-decoration: none;
+    color: #00ff88;
+}
+
+p > a:hover{
+    color: #05cb6fee;
+    text-decoration: underline;
 }
